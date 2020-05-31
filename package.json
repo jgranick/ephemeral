@@ -1,0 +1,26 @@
+{
+  "name": "openfl",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:dev",
+    "build:prod": "cross-env NODE_ENV=production rollup -c",
+    "build:dev": "rollup -c"
+  },
+  "devDependencies": {
+    "@lerna/batch-packages": "^3.13.0",
+    "@lerna/filter-packages": "^3.13.0",
+    "@lerna/project": "^3.13.1",
+    "lerna": "^3.22.0",
+    "minimist": "^1.2.5",
+    "rollup": "^1.10.1",
+    "rollup-plugin-buble": "^0.19.6",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-string": "^3.0.0",
+    "rollup-plugin-terser": "^4.0.4",
+    "rollup-plugin-typescript": "^1.0.1",
+    "typescript": "^3.9.3"
+  }
+}

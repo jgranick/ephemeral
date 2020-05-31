@@ -1,0 +1,12 @@
+{
+  "name": "@openfl/unsorted",
+  "version": "0.0.0",
+  "main": "lib/unsorted.js",
+  "module": "lib/unsorted.es.js",
+  "bundle": "dist/unsorted.js",
+  "files": [
+    "lib",
+    "test"
+  ],
+  "private": true
+}

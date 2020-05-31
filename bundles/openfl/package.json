@@ -1,0 +1,52 @@
+{
+  "name": "openfl",
+  "version": "10.0.0",
+  "description": "A fast, productive library for 2D cross-platform development.",
+  "keywords": [
+    "openfl",
+    "openfl.js",
+    "openfl-js",
+    "game",
+    "animation",
+    "sound",
+    "flash",
+    "graphics"
+  ],
+  "standalone": true,
+  "homepage": "http://www.openfl.org",
+  "bugs": {
+    "url": "https://github.com/openfl/openfl/issues"
+  },
+  "license": "MIT",
+  "contributors": [
+    "Joshua Granick",
+    "Other OpenFL contributors"
+  ],
+  "main": "dist/openfl.min.js",
+  "module": "lib/openfl/index.js",
+  "bundle": "dist/openfl.js",
+  "bundleOutput": {
+    "name": "OpenFL"
+  },
+  "types": "lib/openfl/index.d.ts",
+  "sideEffects": [
+    "./lib/openfl/utils/AssetLibrary.js"
+  ],
+  "files": [
+    "bin",
+    "dist",
+    "lib",
+    "scripts",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openfl/openfl.git"
+  },
+  "dependencies": {
+    "@openfl/unsorted": "0.0.0",
+    "file-saver": "^1.3.8",
+    "howler": "^2.0.15",
+    "pako": "^1.0.11"
+  }
+}
