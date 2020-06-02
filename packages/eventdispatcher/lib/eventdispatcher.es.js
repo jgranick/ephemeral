@@ -1,11 +1,4 @@
 /*!
- * openfl - v10.0.0
- * Compiled Tue, 02 Jun 2020 02:39:13 UTC
- *
- * openfl is licensed under the MIT License.
- * http://www.opensource.org/licenses/mit-license
- */
-/*!
  * @openfl/eventdispatcher - v0.0.0
  * Compiled Tue, 02 Jun 2020 02:39:13 UTC
  *
@@ -1377,13 +1370,5 @@ let ProgressEvent = /** @class */ (() => {
     return ProgressEvent;
 })();
 
-// import * as unsorted from '@openfl/eventdispatcher';
-let events = {
-    Event: Event,
-    EventDispatcher: EventDispatcher,
-    EventPhase: EventPhase$1,
-    ProgressEvent: ProgressEvent
-};
-
-export { events };
-//# sourceMappingURL=index.js.map
+export { Event, EventDispatcher, EventPhase$1 as EventPhase, ProgressEvent };
+//# sourceMappingURL=eventdispatcher.es.js.map

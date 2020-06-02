@@ -4,7 +4,8 @@
   "scripts": {
     "build": "npm run build:dev",
     "build:prod": "cross-env NODE_ENV=production rollup -c",
-    "build:dev": "rollup -c"
+    "build:dev": "rollup -c",
+    "test": "npm run build-test-typescript && mocha-chrome test/npm/typescript/index.html --old-and-busted"
   },
   "devDependencies": {
     "@lerna/batch-packages": "^3.13.0",

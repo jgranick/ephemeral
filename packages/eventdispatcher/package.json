@@ -1,0 +1,12 @@
+{
+  "name": "@openfl/eventdispatcher",
+  "version": "0.0.0",
+  "main": "lib/eventdispatcher.js",
+  "module": "lib/eventdispatcher.es.js",
+  "bundle": "dist/eventdispatcher.js",
+  "files": [
+    "lib",
+    "test"
+  ],
+  "private": true
+}

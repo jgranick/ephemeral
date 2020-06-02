@@ -1,6 +1,6 @@
 /*!
  * @openfl/unsorted - v0.0.0
- * Compiled Sun, 31 May 2020 01:48:35 UTC
+ * Compiled Tue, 02 Jun 2020 01:57:46 UTC
  *
  * @openfl/unsorted is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -26859,7 +26859,8 @@ class Loader extends DisplayObjectContainer {
             // script:ScriptElement = cast Browser.document.createElement ("script");
             // script.innerHTML = loader.data;
             // Browser.document.head.appendChild (script);
-            eval("(function () {" + loader.data + "})()");
+            var eval2 = eval;
+            eval2("(function () {" + loader.data + "})()");
             this.contentLoaderInfo.dispatchEvent(new Event(Event.COMPLETE));
         }
         else {

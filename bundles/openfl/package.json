@@ -26,7 +26,7 @@
   "module": "lib/openfl/index.js",
   "bundle": "dist/openfl.js",
   "bundleOutput": {
-    "name": "OpenFL"
+    "name": "openfl"
   },
   "types": "lib/openfl/index.d.ts",
   "sideEffects": [
@@ -44,7 +44,7 @@
     "url": "https://github.com/openfl/openfl.git"
   },
   "dependencies": {
-    "@openfl/unsorted": "0.0.0",
+    "@openfl/eventdispatcher": "0.0.0",
     "file-saver": "^1.3.8",
     "howler": "^2.0.15",
     "pako": "^1.0.11"

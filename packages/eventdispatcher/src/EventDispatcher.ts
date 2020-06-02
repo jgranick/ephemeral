@@ -1,4 +1,4 @@
-import * as internal from "../_internal/utils/InternalAccess";
+// import * as internal from "../_internal/utils/InternalAccess";
 import Event from "./Event";
 import EventPhase from "./EventPhase";
 import EventType from "./EventType";

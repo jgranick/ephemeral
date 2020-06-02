@@ -1,4 +1,4 @@
-import ObjectPool from "../_internal/utils/ObjectPool";
+// import ObjectPool from "../_internal/utils/ObjectPool";
 import Event from "./Event";
 import EventType from "./EventType";
 
@@ -59,8 +59,8 @@ export default class ProgressEvent extends Event
 	**/
 	public bytesTotal: number;
 
-	protected static __pool: ObjectPool<ProgressEvent> = new ObjectPool<ProgressEvent>(() => new ProgressEvent(null),
-		(event) => event.__init());
+	// protected static __pool: ObjectPool<ProgressEvent> = new ObjectPool<ProgressEvent>(() => new ProgressEvent(null),
+	// 	(event) => event.__init());
 
 	/**
 		Creates an Event object that contains information about progress events.

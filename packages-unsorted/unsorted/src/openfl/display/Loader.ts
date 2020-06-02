@@ -710,7 +710,8 @@ export default class Loader extends DisplayObjectContainer
 			// script.innerHTML = loader.data;
 			// Browser.document.head.appendChild (script);
 
-			eval("(function () {" + loader.data + "})()");
+			var eval2 = eval;
+			eval2("(function () {" + loader.data + "})()");
 
 			this.contentLoaderInfo.dispatchEvent(new Event(Event.COMPLETE));
 		}

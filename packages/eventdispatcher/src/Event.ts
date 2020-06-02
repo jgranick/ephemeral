@@ -1,4 +1,4 @@
-import ObjectPool from "../_internal/utils/ObjectPool";
+// import ObjectPool from "../_internal/utils/ObjectPool";
 import EventPhase from "./EventPhase";
 import EventType from "./EventType";
 
@@ -647,7 +647,7 @@ export default class Event
 	// /** @hidden */ @:dox(hide) public static VIDEO_FRAME:String;
 	// /** @hidden */ @:dox(hide) public static WORKER_STATE:String;
 
-	protected static __pool: ObjectPool<Event> = new ObjectPool<Event>(() => new Event(null), (event) => event.__init());
+	// protected static __pool: ObjectPool<Event> = new ObjectPool<Event>(() => new Event(null), (event) => event.__init());
 
 	protected __bubbles: boolean;
 	protected __cancelable: boolean;
